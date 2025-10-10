@@ -1,10 +1,13 @@
 import React from "react";
+import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline text-indigo-700">
-      Hello, Apple Mackbook Pro!
-    </h1>
+    <main>
+      <NavBar />
+      <Hero />
+    </main>
   );
 };
 
