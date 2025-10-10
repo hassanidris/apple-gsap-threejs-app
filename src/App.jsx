@@ -1,7 +1,11 @@
 import React from "react";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <h1 className="text-3xl font-bold underline text-indigo-700">
+      Hello, Apple Mackbook Pro!
+    </h1>
+  );
 };
 
 export default App;
